@@ -1,0 +1,95 @@
+body{font-family: "微软雅黑";background: url(../img/banner3.jpg) no-repeat center fixed;}
+*{margin:0px;padding: 0px;}
+.clear{clear:both;}
+
+/*页头*/
+.Tp{height:640px;}
+#top{background: #486c88;padding:7px 21px;}
+.navbar{margin:0px !important;}
+.navbar-inverse .navbar-toggle .icon-bar{background-color:#5eb703 !important;}
+#mynavbar{padding:28px 0px;float:left;}
+.navbar-nav li{margin:0px 22px;height: 28px;line-height:28px;}
+
+.navbar-nav li a{margin:0px!important;padding:0px!important;color:#fff!important;font-weight: 400!important;font-size: 20px!important;}
+.navbar-nav li a:hover{background:none!important;color:#5eb703 !important;}
+.thumbnail{background:none!important;border:none!important;}
+.thumbnail img{float:left;padding:140px 0px 0px 50px;}
+
+
+.Ct{background:#fff;padding-top: 40px;}
+.panel-heading{padding:0px;border:none;text-transform:Uppercase;}
+.panel-body{padding:0px;}
+.panel-body h5{font-size: 1.3em;font-weight: 600;color: #5eb703;}
+.panel-footer{padding:0px;background:none;border:none;}
+.panel-footer p{font-size: 1.1em;font-weight: 300;color: #404040;line-height: 1.8em;}
+a.more{background: url(../img/plus1.png) no-repeat 124px 1px;font-size: 18px;font-weight: 400;display: inline-block;text-decoration: none;text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;padding: 0.7em 2.2em;margin: 1em 0em 0em;color:#000;}
+.panel{margin-bottom: 0px;}
+
+/*页中*/
+.Tt{background:#fff;padding-top:100px;padding-bottom: 48px;}
+.col-md-6{padding:0px;}
+.icon{float: left;width: 15%;margin: 2em 0em;}
+.icon .part{font-size: 1.2em;font-weight: 400;background: #70dd00;border-radius: 50%;padding: 6px 12px;text-align: center;color: #fff;font-style: normal;box-shadow: 1px 1px 3px 1px #5eb703;}
+.data{margin: 1em 0em 2em;float: left;width: 84%;}
+.data p{font-size: 1.1em;font-weight: 300;color: #404040;margin: 1em 0em;line-height: 1.8em;}
+.padg-left{box-shadow: 1px 1px 7px 1px #E3E3E3;padding: 1em 1em;margin: 1em 3em 0em 0em;}
+.padg-left h4{text-transform:none;font-size: 1.3em;font-weight: 600;color: #000000;margin: 1em 0em;}
+.padg-left .panel-footer p{margin: 1em 0em;}
+.padg-left .more{background: url(../images/plus1.png)no-repeat 121px 1px;font-size: 18px;font-weight: 400;padding: 0.7em 2.2em;display: inline-block;text-decoration: none;text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;color:#000;}
+
+
+.padg-right{box-shadow: 1px 1px 7px 1px #E3E3E3;padding: 1.1em 1em;margin: 1em 0em 0em 3em;}
+.padg-right h4{text-transform:capitalize;font-size: 1.3em;font-weight: 600;color: #000000;margin: 1em 0em;}
+.padg-right .panel-footer p{margin: 1em 0em;}
+.padg-right h5{font-size: 1.1em;margin: 1em 0em;}
+.padg-right .panel-footer p{font-size: 1.1em;font-weight: 300;color: #404040;margin: 1em 0em;line-height: 1.8em;}
+.padg-right .panel-footer p span{font-size: 1em;font-weight: 600;color: #000000;font-style: normal;}
+
+.padd-right .panel{box-shadow: 1px 1px 7px 1px #E3E3E3;padding: 1em 1em;}
+.padd-right .panel h3{text-align:center;}
+.padd-right .panel-footer .pmal{margin: 1em 0em;}
+.padd-right .panel-footer .icon1{float: left;width: 7%;margin-top: 5px;}
+.padd-right .panel-footer .icon1 .arw{width: 15px;height: 15px;background: url(../img/img-sprite.png)no-repeat -196px -17px;display: inline-block;}
+.padd-right .panel-footer .data1{float: left;width: 92%;}
+.padd-right .panel-footer .data1 p{font-size: 1.1em;font-weight: 600;margin: 0em 0em 0.5em;line-height: 1.8em;}
+.padd-right .panel-footer .data1 span{font-size: 1.1em;color: #477615;font-style: italic;font-weight: 400;line-height: 1.8em;}
+.padd-right .leter{background: #5eb703;padding: 2em 2em 4.5em;margin: 1.5em 0em 0em;}
+.padd-right .leter h4{font-size: 1.5em;font-weight: 600;color: #fff;margin: 1em 0em;text-align: center;}
+.padd-right .leter p{font-size: 1em;font-weight: 400;color: #fff;margin: 1em 0em;}
+.padd-right .leter .name{float: left;width: 85%;}
+.padd-right .leter .name input{width: 100%;color: #898888;outline: none;/*绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。*/font-size: 16px;padding: .5em;border: none;}
+.padd-right .leter .button{float: left;width: 14%;}
+.padd-right .leter .button input{background: #1e3802;padding: 8px;text-transform: uppercase;color: #fff;font-size: 16px;font-weight: 400;display: block;outline: none;border: none;width: 100%;}
+.padd-right .more{background: url(../img/plus1.png) no-repeat 87px 1px;}
+
+
+/*二级页面的页中*/
+.Cc{background:#fff;padding-top:80px;}
+.Cc img{width:100%;}
+.Cc .container .panel-body h3{color: #5eb703;font-weight: 400;font-size: 1.5em;text-transform: uppercase;/*将字母转换为大写*/margin: 1em 0em;}
+.Cc .container .panel-footer p{color: #979797;font-weight: 400;font-size: 1.1em;text-align: left;line-height: 1.5em;margin: 1em 0em 0em;}
+.Cc .container .panel-footer .more{margin: 1em 0em 1em;}
+.Cc .container .panel-title{position: relative;/*相对定位*/}
+.Cc .container .panel-title .zoom-icon{width:100%;height:256px;background: url(../img/zoom.png) center center no-repeat rgba(94, 183, 3, 0.33);cursor: pointer;position: absolute;/*相对于父级进行定位*/display:none;/*隐藏*/}
+
+
+/*页尾部分*/
+.Bt{background: #1e3802;padding: 1em 0em 1em;margin: 0;}
+@media (min-width: 1200px){
+    .Bt .container{
+        width:1170px;
+    }
+}
+@media (min-width: 992px){
+    .Bt .container{
+        width:970px;
+    }
+}
+@media (min-width: 768px){
+    .Bt .container{
+        width:750px;
+    }
+}
+.Bt .container{padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;}
+.Bt .container p{font-weight: 400;color: #fff;margin: 1em 0em;line-height: 1.8em;text-align: center;}
+.Bt .container a{color: #70dd00;}
