@@ -1,45 +1,48 @@
 body{font-family: "微软雅黑";background: url(../img/banner3.jpg) no-repeat center fixed;}
 *{margin:0px;padding: 0px;}
-.clear{clear:both;}
+.clear{clear:both;}/* 清除浮动 */
 
 /*页头*/
-.Tp{height:640px;}
+.Tp{height:640px;}/* 设置高度 */
 #top{background: #486c88;padding:7px 21px;}
 .navbar{margin:0px !important;}
 .navbar-inverse .navbar-toggle .icon-bar{background-color:#5eb703 !important;}
-#mynavbar{padding:28px 0px;float:left;}
+#mynavbar{padding:28px 0px;text-align:center;}
+@media screen and (max-width: 992px) {  /* 设置导航栏在低于992px的情况下改变其li的margin */
+    #mynavbar .navbar-nav li{margin:0px 12px !important;}
+}
 .navbar-nav li{margin:0px 22px;height: 28px;line-height:28px;}
 
 .navbar-nav li a{margin:0px!important;padding:0px!important;color:#fff!important;font-weight: 400!important;font-size: 20px!important;}
-.navbar-nav li a:hover{background:none!important;color:#5eb703 !important;}
-.thumbnail{background:none!important;border:none!important;}
+.navbar-nav li a:hover{background:none!important;color:#5eb703 !important;} /* 鼠标移入时改变其字体颜色 */
+.thumbnail{background:none!important;border:none!important;/* 清除边框 */}
 .thumbnail img{float:left;padding:140px 0px 0px 50px;}
 
 
 .Ct{background:#fff;padding-top: 40px;}
-.panel-heading{padding:0px;border:none;text-transform:Uppercase;}
+.panel-heading{padding:0px;border:none;text-transform:Uppercase;}  /* 设置字母全部大写 */
 .panel-body{padding:0px;}
-.panel-body h5{font-size: 1.3em;font-weight: 600;color: #5eb703;}
+.panel-body h5{font-size: 1.3em;font-weight: 600;/* 设置字体粗细 */color: #5eb703;}
 .panel-footer{padding:0px;background:none;border:none;}
-.panel-footer p{font-size: 1.1em;font-weight: 300;color: #404040;line-height: 1.8em;}
-a.more{background: url(../img/plus1.png) no-repeat 124px 1px;font-size: 18px;font-weight: 400;display: inline-block;text-decoration: none;text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;padding: 0.7em 2.2em;margin: 1em 0em 0em;color:#000;}
-.panel{margin-bottom: 0px;}
+.panel-footer p{font-size: 1.1em;font-weight: 300;color: #404040;line-height: 1.8em;/* 行高 */}
+a.more{background: url(../img/plus1.png) no-repeat 124px 1px;font-size: 18px;font-weight: 400;display: inline-block;text-decoration: none;/* 去掉下划线 */text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;padding: 0.7em 2.2em;margin: 1em 0em 0em;color:#000;}
+.panel{margin-bottom: 0px;/* 清除下外边距 */}
 
 /*页中*/
 .Tt{background:#fff;padding-top:100px;padding-bottom: 48px;}
 .col-md-6{padding:0px;}
 .icon{float: left;width: 15%;margin: 2em 0em;}
-.icon .part{font-size: 1.2em;font-weight: 400;background: #70dd00;border-radius: 50%;padding: 6px 12px;text-align: center;color: #fff;font-style: normal;box-shadow: 1px 1px 3px 1px #5eb703;}
+.icon .part{font-size: 1.2em;font-weight: 400;background: #70dd00;border-radius: 50%;/* 设置圆角 */padding: 6px 12px;text-align: center;/* 设置水平居中 */color: #fff;font-style: normal;/* 显示标准字体 */box-shadow: 1px 1px 3px 1px #5eb703;/* 添加阴影 */}
 .data{margin: 1em 0em 2em;float: left;width: 84%;}
 .data p{font-size: 1.1em;font-weight: 300;color: #404040;margin: 1em 0em;line-height: 1.8em;}
 .padg-left{box-shadow: 1px 1px 7px 1px #E3E3E3;padding: 1em 1em;margin: 1em 3em 0em 0em;}
 .padg-left h4{text-transform:none;font-size: 1.3em;font-weight: 600;color: #000000;margin: 1em 0em;}
 .padg-left .panel-footer p{margin: 1em 0em;}
-.padg-left .more{background: url(../images/plus1.png)no-repeat 121px 1px;font-size: 18px;font-weight: 400;padding: 0.7em 2.2em;display: inline-block;text-decoration: none;text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;color:#000;}
+.padg-left .more{background: url(../images/plus1.png)no-repeat 121px 1px;font-size: 18px;font-weight: 400;padding: 0.7em 2.2em;display: inline-block;/* 不独占一行的块级标签 */text-decoration: none;text-align: center;border: 1px solid #5eb703;margin: 1em 0em 0em;color:#000;}
 
 
 .padg-right{box-shadow: 1px 1px 7px 1px #E3E3E3;padding: 1.1em 1em;margin: 1em 0em 0em 3em;}
-.padg-right h4{text-transform:capitalize;font-size: 1.3em;font-weight: 600;color: #000000;margin: 1em 0em;}
+.padg-right h4{text-transform:capitalize;/* 把字母的首字母转换为大写字母 */font-size: 1.3em;font-weight: 600;color: #000000;margin: 1em 0em;}
 .padg-right .panel-footer p{margin: 1em 0em;}
 .padg-right h5{font-size: 1.1em;margin: 1em 0em;}
 .padg-right .panel-footer p{font-size: 1.1em;font-weight: 300;color: #404040;margin: 1em 0em;line-height: 1.8em;}
@@ -59,7 +62,7 @@ a.more{background: url(../img/plus1.png) no-repeat 124px 1px;font-size: 18px;fon
 .padd-right .leter .name{float: left;width: 85%;}
 .padd-right .leter .name input{width: 100%;color: #898888;outline: none;/*绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。*/font-size: 16px;padding: .5em;border: none;}
 .padd-right .leter .button{float: left;width: 14%;}
-.padd-right .leter .button input{background: #1e3802;padding: 8px;text-transform: uppercase;color: #fff;font-size: 16px;font-weight: 400;display: block;outline: none;border: none;width: 100%;}
+.padd-right .leter .button input{background: #1e3802;padding: 8px;text-transform: uppercase;color: #fff;font-size: 16px;font-weight: 400;display: block;/* 块级标签独占一行 */outline: none;border: none;width: 100%;}
 .padd-right .more{background: url(../img/plus1.png) no-repeat 87px 1px;}
 
 
@@ -70,22 +73,22 @@ a.more{background: url(../img/plus1.png) no-repeat 124px 1px;font-size: 18px;fon
 .Cc .container .panel-footer p{color: #979797;font-weight: 400;font-size: 1.1em;text-align: left;line-height: 1.5em;margin: 1em 0em 0em;}
 .Cc .container .panel-footer .more{margin: 1em 0em 1em;}
 .Cc .container .panel-title{position: relative;/*相对定位*/}
-.Cc .container .panel-title .zoom-icon{width:100%;height:256px;background: url(../img/zoom.png) center center no-repeat rgba(94, 183, 3, 0.33);cursor: pointer;position: absolute;/*相对于父级进行定位*/display:none;/*隐藏*/}
+.Cc .container .panel-title .zoom-icon{width:100%;height:256px;background: url(../img/zoom.png) center center no-repeat rgba(94, 183, 3, 0.33);cursor: pointer;/* 使鼠标变成小手状 */position: absolute;/*相对于父级进行定位*/display:none;/*隐藏*/}
 
 
 /*页尾部分*/
 .Bt{background: #1e3802;padding: 1em 0em 1em;margin: 0;}
-@media (min-width: 1200px){
+@media (min-width: 1200px){  /* 设置像素小于1200px时 */
     .Bt .container{
         width:1170px;
     }
 }
-@media (min-width: 992px){
+@media (min-width: 992px){   /* 设置像素小于992px时 */
     .Bt .container{
         width:970px;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 768px){   /* 设置像素小于768px时 */
     .Bt .container{
         width:750px;
     }
